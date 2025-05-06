@@ -36,7 +36,7 @@ OTEL_EXPORTER_OTLP_INSECURE="true" go run cmd/app/main.go
 ```
 
 In another shell we can now 'bombard' our app with some traffic. Every 5 seconds
-we run our `/school/tick` endpoint, which will generate increase the 'schools hour'
+we run our `/school/tick` endpoint, which will increment the 'schools hour'
 and have ~students~ goats attend their class.
 
 ```shell
